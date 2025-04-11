@@ -4,10 +4,10 @@ import time
 from pyrogram import Client
 
 # Load akun dan jadwal
-with open("accounts.json") as f:
+with open("data/accounts.json") as f:
     accounts = json.load(f)
 
-with open("schedules.json") as f:
+with open("data/schedules.json") as f:
     schedules = json.load(f)
 
 # Worker untuk setiap akun
